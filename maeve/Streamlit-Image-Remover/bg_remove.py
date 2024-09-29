@@ -1,8 +1,8 @@
 from io import BytesIO
+from os import remove
 
 import streamlit as st
 from PIL import Image
-from rembg import remove
 
 st.header("Get your clothes with transparent background!")
 
